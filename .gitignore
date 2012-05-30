@@ -1,3 +1,9 @@
+
+# PyDev #
+#########
+.pydevproject
+.project 
+
 *.py[co]
 
 # Packages
