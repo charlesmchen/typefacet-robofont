@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Typefacet-robofont by charlesmchen</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Typefacet-robofont</h1>
+        <p>A set of free and open source scripts for RoboFont</p>
+        <p class="view"><a href="https://github.com/charlesmchen/typefacet-robofont">View the Project on GitHub <small>charlesmchen/typefacet-robofont</small></a></p>
+        <ul>
+          <li><a href="https://github.com/charlesmchen/typefacet-robofont/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/charlesmchen/typefacet-robofont/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/charlesmchen/typefacet-robofont">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>TypeFacet-RoboFont</h1>
+
+<p>A collection of free and open-source robofont extensions and scripts.</p>
+
+<p>Distributed as the TypeFacet-RoboFont extension</p>
+
+<h2>Scripts</h2>
+
+<h3>RFMergePointsNotUpdatingControlPoints</h3>
+
+<h3>RFMergePointsUpdatingControlPoints</h3>
+
+<p>Scripts that merge the selected points in the current glyph into a single point.</p>
+
+<ul>
+<li>Only straight segment and bezier curve end points can be selected as inputs, not bezier control points.</li>
+<li>The "UpdatingControlPoints" version also updates adjacent control points.</li>
+</ul><h3>RFCleanupSelectedGlyphContours</h3>
+
+<h3>RFCleanupAllGlyphContours</h3>
+
+<p>Scripts that clean up glyph contours.</p>
+
+<ul>
+<li>Removes straight segments within contours that have the same start point and end point.</li>
+<li>Converts bezier curves to straight segments if their control points are the same as their endpoints (a trivial case of straightness).</li>
+</ul><h4>TODO</h4>
+
+<p>This script could do a lot more.</p>
+
+<ul>
+<li>It could convert all straight curves to straight segments (not just the trivial case).</li>
+<li>It could remove empty bezier curves, not just empty straight segments.</li>
+</ul><p>Also, it'd be nice to add a progress bar as it is fairly slow.</p>
+
+<h3>RFAlignGlyph</h3>
+
+<p>Palette to facilitate re-aligning entire glyphs.</p>
+
+<h3>RFSelectEntireContours</h3>
+
+<p>Selects all points in a contour if any point in that contour is selected.</p>
+
+<h3>RFAlignAllTangents</h3>
+
+<h3>RFAlignAllTangentsCurvify</h3>
+
+<h3>RFAlignSelectedTangents</h3>
+
+<h3>RFAlignSelectedTangentsCurvify</h3>
+
+<p>Aligns tangents so that incoming and outgoing tangents of points are parallel.</p>
+
+<ul>
+<li>The "Selected" versions only updates selected endpoints.</li>
+<li>The "Curvify" versions convert straight segments to cubic bezier curves.</li>
+</ul><h2>How To Install</h2>
+
+<ul>
+<li>
+<p>Download distribution</p>
+
+<p><a href="https://github.com/charlesmchen/typefacet-robofont/zipball/master">https://github.com/charlesmchen/typefacet-robofont/zipball/master</a></p>
+</li>
+<li><p>Unzip </p></li>
+<li><p>Double-Click the "TypeFacet-RoboFont.roboFontExt" file in the "extension" folder.</p></li>
+</ul><h2>License </h2>
+
+<p>Available under the Apache Software License 2.0</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/charlesmchen">charlesmchen</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
